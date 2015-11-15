@@ -1,5 +1,5 @@
 {
-  "name": "astronaut",
+  "name": "astronautjs",
   "version": "1.0.0",
   "description": "A microframwork that will leave you in space",
   "main": "index.js",
@@ -32,8 +32,9 @@
     "colors": "^1.1.2",
     "shelljs": "^0.5.3"
   },
-  "bin" : {
-    "astronaut" : "index.js"
-	},
-	"preferGlobal" : "true"
+  "bin": {
+    "astronaut": "index.js"
+  },
+  "preferGlobal": "true",
+  "devDependencies": {}
 }
