@@ -1,0 +1,37 @@
+{
+  "name": "ez-mean",
+  "version": "1.0.0",
+  "description": "A easy microframework to construct MEAN apps",
+  "main": "package.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/core/FrameInitializer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guidiego/EzMean.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "express",
+    "node",
+    "nodejs",
+    "javascript",
+    "js",
+    "framework"
+  ],
+  "author": "Guilherme Diego",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guidiego/EzMean/issues"
+  },
+  "homepage": "https://github.com/guidiego/EzMean#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "jsonwebtoken": "^5.4.1",
+    "mongoose": "^4.2.5"
+  }
+}
