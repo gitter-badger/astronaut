@@ -35,6 +35,5 @@
   "bin": {
     "astronaut": "index.js"
   },
-  "preferGlobal": "true",
-  "devDependencies": {}
+  "preferGlobal": "true"
 }
