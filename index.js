@@ -10,6 +10,8 @@ if (process.argv.length > 2) {
     require('./bin/create')(process.argv, lib);
   } else if (process.argv[0] == 'help'){
     require('./bin/help')();
+  } else if (process.argv[0] == 'run'){
+    require('./bin/run')();
   } else {
     console.log(colors.bold.red('Command not found! Try :') + colors.green(' astronaut help'));
   }
